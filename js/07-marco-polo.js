@@ -3,13 +3,13 @@ for(var i=1; i <= 100; i++) {
     var isMultiple5 = i%5 === 0;
     if(isMultiple3 || isMultiple5) {
       if(isMultiple3 && isMultiple5) {
-        document.writeln("Marco! Polo!");
+        document.writeln("Marco! Polo! </br>");
       }
       else if(isMultiple3) {
-        document.writeln("Marco!");
+        document.writeln("Marco! </br>");
       }
       else {
-        document.writeln("Polo!");
+        document.writeln("Polo! </br>");
       }
     }
   }
